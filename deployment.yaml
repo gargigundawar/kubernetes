@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: nodejs-app-container
-          image: gargi3105/your-nodejs-image:latest
+          image: gargi3105/kubernetes-app:latest
           ports:
             - containerPort: 80
           readinessProbe:
